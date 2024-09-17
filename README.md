@@ -7,6 +7,9 @@ that thanks to a user creator can sugest interesting books depending on the pref
 
 ![Alt text](Images/example1.png)
 
+<img src="Images/example2.png" alt="Descripción de la imagen" width="300"/>
+
+
 # Commands
 - help -> shows commands
 - start -> starts the recommendation
