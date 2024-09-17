@@ -80,3 +80,16 @@ The point system is the second phase of book selection. Below, we detail the wei
     -Location (1 point if the book contains the location)
     -Author (1 point if the book contains one of the preferred authors)
     -Rating (critics' score minus 2)
+
+Example:
+
+    Water for Elephants
+    Common genres: [Fiction, Novels] → 2 points
+    Critics' rating: 4.09 → (4.09 - 2) = 2.09 points
+    Interest to people aged 32?: Yes → 1 point
+    Pages (335), within the user's range (200-350): Yes → 1 point
+    Publication date (2007), within the user's range (2000-2023): Yes → 1 point
+    Contains preferred locations?: Yes (New York) → 1 point
+    Contains preferred authors?: No → 0 points
+    Total score = 2 + 2.09 + 1 + 1 + 1 + 1 + 0 = 8.09 points
+
