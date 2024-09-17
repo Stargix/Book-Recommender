@@ -5,12 +5,7 @@ This project is a book recommender with prolog with a clear UI
 The recommender is based on a database of 400 books with up to 13 parameters 
 that thanks to a user creator can sugest interesting books depending on the preferences
 
-<img src="Images/example1.png" alt="Descripción de la imagen" width="400"/>
-
-<img src="Images/example2.png" alt="Descripción de la imagen" width="400"/>
-
-<img src="Images/example3.png" alt="Descripción de la imagen" width="400"/>
-
+<img src="Images/example1.png" alt="Descripción de la imagen" width="400"/><img src="Images/example2.png" alt="Descripción de la imagen" width="400"/>
 
 # Commands
 - help -> shows commands
@@ -72,6 +67,8 @@ Example:
     (France)']).
 
 # Recommendations
+<img src="Images/example3.png" alt="Descripción de la imagen" width="400"/>
+
 The recommendation system studies the criteria set by the user and calculates a score for the books that meet those criteria. The score calculation is based on a point system, allowing more or less weight to be assigned to each parameter considered.
 
 The numerical value of each book is calculated by summing the points obtained for each parameter, and the recommendations are ordered in descending order of score. This enables the recommendation of a large number of books, although their relevance may decrease as the list goes on. By default, it recommends the 5 books most suited to the user, and this information is saved to their profiles to avoid repeating recommendations already made.
