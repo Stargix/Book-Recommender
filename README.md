@@ -16,9 +16,9 @@ that thanks to a user creator can sugest interesting books depending on the pref
 # Structure
 
 ## Users 
-usuari(nom_usuari, Nom, Cognom, Edat, Gèneres, [Edició_posterior, Edició_anterior],
-[Extensió_mínima, Extensió_màxima], LlocsNoVol, AutorsNoVol, Idiomes, AutorsSiVol,
-LlocsSiVol, GèneresNoVol, Recomanacions).
+    usuari(nom_usuari, Nom, Cognom, Edat, Gèneres, [Edició_posterior, Edició_anterior],
+    [Extensió_mínima, Extensió_màxima], LlocsNoVol, AutorsNoVol, Idiomes, AutorsSiVol,
+    LlocsSiVol, GèneresNoVol, Recomanacions).
 
     -A unique identifier
     -First name
@@ -38,7 +38,7 @@ LlocsSiVol, GèneresNoVol, Recomanacions).
     -Previous recommendations
 
 ## Books
-llibre("Les Misérables", "Victor Hugo", 4.18, "English", ['Classics',
+    llibre("Les Misérables", "Victor Hugo", 4.18, "English", ['Classics',
 'Fiction', 'Historical Fiction', 'Literature', 'France', 'Historical',
 'Novels', 'French Literature', 'Romance', 'Classic Literature'], ['Jean
 Valjean', 'Javert', 'Cosette', 'Fantine', 'Bishop Myriel', 'M. & Mme.
