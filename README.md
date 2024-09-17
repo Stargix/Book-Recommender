@@ -69,6 +69,7 @@ Example:
 
 # Recommendations
 <img src="Images/example3.png" alt="Descripción de la imagen" width="400"/>
+<img src="Images/example4.png" alt="Descripción de la imagen" width="400"/>
 
 The recommendation system studies the criteria set by the user and calculates a score for the books that meet those criteria. The score calculation is based on a point system, allowing more or less weight to be assigned to each parameter considered.
 
