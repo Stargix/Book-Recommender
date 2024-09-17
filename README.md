@@ -5,7 +5,8 @@ This project is a book recommender with prolog with a clear UI
 The recommender is based on a database of 400 books with up to 13 parameters 
 that thanks to a user creator can sugest interesting books depending on the preferences
 
-<img src="Images/example1.png" alt="Descripción de la imagen" width="400"/><img src="Images/example2.png" alt="Descripción de la imagen" width="400"/>
+<img src="Images/example1.png" alt="Descripción de la imagen" width="400"/>
+<img src="Images/example2.png" alt="Descripción de la imagen" width="400"/>
 
 # Commands
 - help -> shows commands
