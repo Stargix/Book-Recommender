@@ -63,3 +63,20 @@ Example:
     'Éponine', 'Enjolras', 'Gavroche', 'Bishop of Digne', 'Grantaire',
     'Bahorel', 'Bossuet'], 1463, "Signet Classics", 1987, ['Paris
     (France)']).
+
+# Recommendations
+The recommendation system studies the criteria set by the user and calculates a score for the books that meet those criteria. The score calculation is based on a point system, allowing more or less weight to be assigned to each parameter considered.
+
+The numerical value of each book is calculated by summing the points obtained for each parameter, and the recommendations are ordered in descending order of score. This enables the recommendation of a large number of books, although their relevance may decrease as the list goes on. By default, it recommends the 5 books most suited to the user, and this information is saved to their profiles to avoid repeating recommendations already made.
+
+The recommendation system is divided into two parts. The first filters the books based on parameters the user does not want (such as undesired authors, cities, or genres). It also filters books according to the languages the user has selected. This ensures that no books with any undesired parameters are recommended to the user. Thus, we avoid recommendations with a negative parameter.
+
+The point system is the second phase of book selection. Below, we detail the weights assigned to each characteristic. This approach has provided us with the most accurate results, but it can be modified internally to adjust the system’s behavior.
+
+    -Common genres (1 point per genre)
+    -Age (recommended for the age: 1 point; unknown: 0.5 points; no: 0 points)
+    -Year of publication (1 point if the book is within the range set by the user)
+    -Pages (1 point if the book is within the range set by the user)
+    -Location (1 point if the book contains the location)
+    -Author (1 point if the book contains one of the preferred authors)
+    -Rating (critics' score minus 2)
